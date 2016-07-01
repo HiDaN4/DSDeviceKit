@@ -12,12 +12,12 @@
 
 ## Overview
 
-A wrapper for UIDevice that provides quick access to all necessary information about current Device.
+A wrapper for UIDevice that provides quick access to all necessary information about current Device. Implements the Singleton Pattern
 
 ## Requirements
 
 * ARC
-* iOS 8
+* iOS 8 (dynamic framework)
 
 ## Installation
 
@@ -35,7 +35,19 @@ import DSDeviceKit
 
 let device = DSDeviceKit.currentDevice
 
-device.modelName // iPhone 6s / iPad Air 2 / ...
+print(device.modelName)     // "iPhone 6s" or "iPad Air 2" and so on
+print(device.identifier)    // "iPhone8,1" or "Simulator" and so on
+print(device.iOSVersion)    // "9.3" and so on
+print(device.deviceType)    // "iPhone" or "iPad" or "iPod Touch" or "Unknown"
+print(device.isPhone)       // true or false
+
+let devices = ["iphone 6", "ipad pro", "iPhone SE"]
+
+
+if device.isOneOf(devices) {
+    // is one of the allowed devices
+}
+
 ```
 
 ## Example project

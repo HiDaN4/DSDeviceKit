@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DSDeviceKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A wrapper for UIDevice that facilitates access to Device info'
+  s.version          = '0.1.1'
+  s.summary          = 'A wrapper for UIDevice that facilitates access to iOS Device info'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,11 +18,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-This CocoaPod is a wrapper for UIDevice that provides a better way to get information about current device.
+This CocoaPod is a wrapper for UIDevice that provides a better way to get information about current device. Written in Swift
+
+Static instance of DSDeviceKit (currentDevice) has many properties, such as:
+
+- modelName     // "iPhone 6s"
+- iOSVersion    // "9.3"
+- deviceType    // .iPhone or .iPad
+- identifier    // "iPhone8,1"
+- isPhone       // true or false
+- isIpad        // true of false
+- orientation   // UIDeviceOrientation
+- userInterface // UIUserInterfaceIdiom
+
                        DESC
 
   s.homepage         = 'https://github.com/HiDaN4/DSDeviceKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://github.com/HiDaN4/DSDeviceKit/blob/master/DSDeviceKit.png?raw=true'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dmitry Sokolov' => '' }
   s.source           = { :git => 'https://github.com/HiDaN4/DSDeviceKit.git', :tag => s.version.to_s }

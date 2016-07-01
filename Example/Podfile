@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DSDeviceKit_Example' do
+  pod 'DSDeviceKit', :path => '../'
+
+  target 'DSDeviceKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -10,12 +10,12 @@
 		0589CC21B8E4B8AA0CA4891B6DE64DED /* Pods-DSDeviceKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1097FC0540DD415544C3DE2D1AE64872 /* Pods-DSDeviceKit_Example-dummy.m */; };
 		2FF183E48B84150BBB9A2970BC0186ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		35C90EC30932623B4B669B4CFAFF4125 /* Pods-DSDeviceKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F488B0881728B2D1426260EA4194F7 /* Pods-DSDeviceKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4846EF9DFAD94A423E77A4932E49610C /* DSDeviceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD3FDA17E65ECC38CCE982E0AB600D /* DSDeviceKit-dummy.m */; };
 		5A294F6BB81FE16BAA3A7CB6C624240A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		76F9D9E0581AA9FE24D57E7F34B85B1B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86972B1D86EE60797473EC4A6ECB1BEF /* ReplaceMe.swift */; };
 		A974DE01455F3B0286F04A3A8BA90DCA /* Pods-DSDeviceKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C910F84ED0271F52D784DFC531F1343 /* Pods-DSDeviceKit_Tests-dummy.m */; };
 		AB1EB6A52EE65E0FB0F4CFEB0AF5803F /* Pods-DSDeviceKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 433922229A86E9898B4C452009DBF908 /* Pods-DSDeviceKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9D34688AEA343A9224FD5955FCD50CD /* DSDeviceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD3FDA17E65ECC38CCE982E0AB600D /* DSDeviceKit-dummy.m */; };
 		DA3E6222B8AAA3F68AE38BE970AEB7BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EB08CF08A702DE5078E3A6C6EF2A58DB /* DSDeviceKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375C421DCD400D093EDC63BFA2B8B4ED /* DSDeviceKit.swift */; };
 		F8F800602A8FB4EFFB3BC7708371EB1B /* DSDeviceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D9D0AA1C7510B65D05E3F13FB75986 /* DSDeviceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -35,6 +35,7 @@
 		1097FC0540DD415544C3DE2D1AE64872 /* Pods-DSDeviceKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSDeviceKit_Example-dummy.m"; sourceTree = "<group>"; };
 		116434FC38676341803EBC2D3CE73667 /* DSDeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSDeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFD3FDA17E65ECC38CCE982E0AB600D /* DSDeviceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSDeviceKit-dummy.m"; sourceTree = "<group>"; };
+		375C421DCD400D093EDC63BFA2B8B4ED /* DSDeviceKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DSDeviceKit.swift; sourceTree = "<group>"; };
 		3B8106E1157C01F6252C730F9A36FF0A /* Pods-DSDeviceKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSDeviceKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3C910F84ED0271F52D784DFC531F1343 /* Pods-DSDeviceKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSDeviceKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		3E59D118D301A77CC4593EB6692B9A9E /* Pods-DSDeviceKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSDeviceKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		62BDD681D58857402EFB119F7E4C5B23 /* DSDeviceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DSDeviceKit.modulemap; sourceTree = "<group>"; };
 		6456B9B3CD2DC014C442AACD52C5A007 /* Pods-DSDeviceKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSDeviceKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		702F00490EC08CE15403790ECB50EADF /* DSDeviceKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSDeviceKit.xcconfig; sourceTree = "<group>"; };
-		86972B1D86EE60797473EC4A6ECB1BEF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		8C7180B35D4D625C4121DB0FFC1B690E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC67129D7F6B8E3FCE36EF475D0B6B6 /* Pods_DSDeviceKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSDeviceKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F692480F7359A5DF8B04E290B2CE59E /* Pods-DSDeviceKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSDeviceKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -141,6 +141,14 @@
 			path = "Target Support Files/Pods-DSDeviceKit_Tests";
 			sourceTree = "<group>";
 		};
+		554D61FE35519CC5D5D7E90A28841303 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				375C421DCD400D093EDC63BFA2B8B4ED /* DSDeviceKit.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		629AF51097C986AC8F6F9993BCACD8BC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,18 +188,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A88BB8440300D4C83F143FC07487D83A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				86972B1D86EE60797473EC4A6ECB1BEF /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		B254BC49BA35F10D220F6185B96EB372 /* DSDeviceKit */ = {
 			isa = PBXGroup;
 			children = (
-				A88BB8440300D4C83F143FC07487D83A /* Classes */,
+				554D61FE35519CC5D5D7E90A28841303 /* Classes */,
 			);
 			path = DSDeviceKit;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DADD0E39282ED3BFDAC98CEFA19FFE6F /* Build configuration list for PBXNativeTarget "DSDeviceKit" */;
 			buildPhases = (
-				195999E171C15126CA29F2251EC33BF8 /* Sources */,
+				C146E77D248284141DC01152EE8FE6F8 /* Sources */,
 				74591D33DC7FB9DC1F1815320C23B029 /* Frameworks */,
 				15A70493959E1774D28CC5F86887E192 /* Headers */,
 			);
@@ -333,15 +333,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		195999E171C15126CA29F2251EC33BF8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9D34688AEA343A9224FD5955FCD50CD /* DSDeviceKit-dummy.m in Sources */,
-				76F9D9E0581AA9FE24D57E7F34B85B1B /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5D688C9AF7EC9834C3C64042DC654B4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +346,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0589CC21B8E4B8AA0CA4891B6DE64DED /* Pods-DSDeviceKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C146E77D248284141DC01152EE8FE6F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4846EF9DFAD94A423E77A4932E49610C /* DSDeviceKit-dummy.m in Sources */,
+				EB08CF08A702DE5078E3A6C6EF2A58DB /* DSDeviceKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

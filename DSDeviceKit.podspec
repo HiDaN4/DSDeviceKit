@@ -24,7 +24,7 @@ This CocoaPod is a wrapper for UIDevice that provides a better way to get inform
   s.homepage         = 'https://github.com/HiDaN4/DSDeviceKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Dmitry Sokolov' => 'hidan446@gmail.com' }
+  s.author           = { 'Dmitry Sokolov' => '' }
   s.source           = { :git => 'https://github.com/HiDaN4/DSDeviceKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

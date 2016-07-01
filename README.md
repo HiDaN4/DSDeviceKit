@@ -5,11 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/DSDeviceKit.svg?style=flat)](http://cocoapods.org/pods/DSDeviceKit)
 [![Platform](https://img.shields.io/cocoapods/p/DSDeviceKit.svg?style=flat)](http://cocoapods.org/pods/DSDeviceKit)
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+![](DSDeviceKit.png?raw=true "DSDeviceKit screenshot")
+
+
+## Overview
+
+A wrapper for UIDevice that provides quick access to all necessary information about current Device.
 
 ## Requirements
+
+* ARC
+* iOS 8
 
 ## Installation
 
@@ -20,9 +28,24 @@ it, simply add the following line to your Podfile:
 pod "DSDeviceKit"
 ```
 
+## Usage
+
+```Swift
+import DSDeviceKit
+
+let device = DSDeviceKit.currentDevice
+
+device.modelName // iPhone 6s / iPad Air 2 / ...
+```
+
+## Example project
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+
 ## Author
 
-Dmitry Sokolov, hidan446@gmail.com
+Dmitry Sokolov
 
 ## License
 

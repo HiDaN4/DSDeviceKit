@@ -1,0 +1,6 @@
+framework module DSDeviceKit {
+  umbrella header "DSDeviceKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

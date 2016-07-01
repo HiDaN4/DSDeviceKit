@@ -1,0 +1,16 @@
+PODS:
+  - DSDeviceKit (0.1.0)
+
+DEPENDENCIES:
+  - DSDeviceKit (from `../`)
+
+EXTERNAL SOURCES:
+  DSDeviceKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DSDeviceKit: 317a8dd5a9c4d211ab6d19ac7cb0fe6960e7077f
+
+PODFILE CHECKSUM: 838c68ef2dfa191eb1886de2d67946e91c2ff21c
+
+COCOAPODS: 1.0.0

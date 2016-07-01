@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DSDeviceKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DSDeviceKit.'
+  s.summary          = 'A wrapper for UIDevice that facilitates access to Device info'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This CocoaPod is a wrapper for UIDevice that provides a better way to get information about current device.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/DSDeviceKit'
+  s.homepage         = 'https://github.com/HiDaN4/DSDeviceKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dmitry Sokolov' => 'hidan446@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/DSDeviceKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HiDaN4/DSDeviceKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

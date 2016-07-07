@@ -7,7 +7,7 @@
 
 
 
-![](DSDeviceKit.png?raw=true "DSDeviceKit screenshot")
+![](https://raw.githubusercontent.com/HiDaN4/DSDeviceKit/master/DSDeviceKit.png)
 
 
 ## Overview
@@ -47,6 +47,23 @@ let devices = ["iphone 6", "ipad pro", "iPhone SE"]
 if device.isOneOf(devices) {
     // is one of the allowed devices
 }
+
+
+if device.deviceType == .iPodTouch { // or .iPhone or .iPad
+    // ...
+}
+
+// or you can use convenient computed variables:
+
+if device.isPhone {
+    // this is iPhone
+}
+
+
+if device.isIPad {
+    // this is iPad
+}
+
 
 ```
 
